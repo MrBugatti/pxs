@@ -6,13 +6,13 @@ const cellWidth = 25;
 const cellHeight = 25;
 
 async function task(x, y) {
-    await timer(100);
+    await timer(300);
     canvasAnimation([{
         dimension: selectCell(x, y, 1, 1),
         styles: {
             animationName: 'example',
-            animationDuration: '3s',
-            animationIterationCount: 'no',
+            animationDuration: '1s',
+            animationIterationCount: 'infinite',
         },
     }, ]);
 }
