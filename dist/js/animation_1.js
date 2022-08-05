@@ -1,4 +1,4 @@
-import { generateGraphic, canvasAnimation, selectCell } from './libs/pxs.js';
+import { generateGraphic, canvasAnimation, selectCell } from './lib/pxs.js';
 
 const width = '500px';
 const height = '300px';
