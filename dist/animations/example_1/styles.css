@@ -1,0 +1,23 @@
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+#canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    box-shadow: inset 0 0 0 1px #bfdbfd;
+}
