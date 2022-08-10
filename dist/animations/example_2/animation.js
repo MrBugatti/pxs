@@ -6,7 +6,7 @@ const cellWidth = 50;
 const cellHeight = 50;
 
 async function task(x, y) {
-    await timer(300);
+    await timer(15);
     canvasAnimation([{
         dimension: selectCell(x, y, 1, 1),
         styles: {
