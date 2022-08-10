@@ -10,7 +10,7 @@ export const generateGraphic = (width, height, cellWidth, cellHeight) => {
         let yPos = 1;
         for (let x = 1; x <= cells; x++) {
             row += `<div style="display:block; width:${cellWidth}px; height:${cellHeight}px"
-                        class="x-${xPos} y-${yPos} cell">y-${yPos} x-${xPos}
+                        class="x-${xPos} y-${yPos} cell">
                     </div>`;
             if (xPos === columns) {
                 xPos = 1;
